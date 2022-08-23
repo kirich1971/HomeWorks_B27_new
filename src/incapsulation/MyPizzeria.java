@@ -18,6 +18,12 @@ public class MyPizzeria {
             Pizza pizza4 = new Pizza("medium", 100);
             System.out.println(pizza4);
 
+            Pizza [] pizzas = {pizza1, pizza2, pizza3, pizza4};
+
+            for (Pizza pizza : pizzas) {
+                System.out.println(pizza.getSize());
+            }
+
         }
 
 }
